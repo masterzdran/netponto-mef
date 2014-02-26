@@ -1,0 +1,32 @@
+http://mef.codeplex.com
+http://msdn.microsoft.com/en-us/library/dd460648(v=vs.110).aspx
+https://mef.codeplex.com
+http://en.wikipedia.org/wiki/Managed_Extensibility_Framework
+http://www.codeproject.com/Articles/188054/An-Introduction-to-Managed-Extensibility-Framework
+http://visualstudiomagazine.com/articles/2013/02/12/mef-convention-model.aspx
+http://csharperimage.jeremylikness.com/2010/04/ten-reasons-to-use-managed.html
+http://cs.utsa.edu/~vonronne/classes/cs3723-s10/extensibility/mef.pdf
+
+http://code.msdn.microsoft.com/windowsdesktop/Creating-a-simple-plugin-b6174b62
+http://netponto.org/sessao/maf-managed-addin-framework-criacao-de-aplicacoes-extensiveis/
+http://www.slideshare.net/netponto/maf-managed-addin-framework
+Apresentação realizada em 10-07-2010 na 12ª Reunião Presencial da Comunidade NetPonto em Lisboa.
+http://msdn.microsoft.com/en-us/magazine/ee291628.aspx
+http://dailydotnettips.com/tag/extensibility/
+
+
+
+Title:
+	Extend your Application with MEF
+Agenda:
+- Little bit of history
+- Before MEF ... there was MAF
+	- Reference to presentation of Virgilio Esteves
+- Development Contract Oriented
+- MEF: The basics
+	- Demo
+- One step forward
+	- Some advanced topics
+	- Demo
+- MEF play with IRON Python
+
