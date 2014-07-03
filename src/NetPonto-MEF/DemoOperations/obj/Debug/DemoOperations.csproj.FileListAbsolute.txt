@@ -1,0 +1,4 @@
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DemoOperations\bin\Debug\DemoOperations.dll
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DemoOperations\bin\Debug\DemoOperations.pdb
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DemoOperations\obj\Debug\DemoOperations.dll
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DemoOperations\obj\Debug\DemoOperations.pdb

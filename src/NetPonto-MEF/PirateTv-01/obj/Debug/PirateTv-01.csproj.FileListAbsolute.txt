@@ -31,3 +31,9 @@ C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\obj\Debug\qu
 C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\obj\Debug\qualifiers.txt.intermediate
 C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\obj\Debug\ProjectArchitectures.txt
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\PirateTv-01-Channels-Lib.dll
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\PirateTv-01-Channels-Lib.pdb
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\PirateTv-01-Channels-Lib.pri
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\obj\Debug\PirateTv-01.csprojResolveAssemblyReference.cache
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\obj\Debug\PirateTv-01.csproj.GenerateResource.Cache
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\PirateTv-01.xr.xml

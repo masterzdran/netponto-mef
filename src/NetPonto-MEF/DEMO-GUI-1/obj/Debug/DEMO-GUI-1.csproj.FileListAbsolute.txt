@@ -1,0 +1,12 @@
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\bin\Debug\DEMO-GUI-1.exe.config
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\bin\Debug\DEMO-GUI-1.exe
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\bin\Debug\DEMO-GUI-1.pdb
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\obj\Debug\MainWindow.baml
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\obj\Debug\MainWindow.g.cs
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\obj\Debug\App.g.cs
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\obj\Debug\DEMO-GUI-1_MarkupCompile.cache
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\obj\Debug\DEMO-GUI-1.g.resources
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\obj\Debug\DEMO_GUI_1.Properties.Resources.resources
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\obj\Debug\DEMO-GUI-1.csproj.GenerateResource.Cache
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\obj\Debug\DEMO-GUI-1.exe
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\DEMO-GUI-1\obj\Debug\DEMO-GUI-1.pdb

@@ -25,7 +25,7 @@
                     <ImageBrush ImageSource="" />
                 </Rectangle.Fill>
             </Rectangle>
-            <Button x:ConnectionId='0'                           Canvas.Left="994" Canvas.Top="232">
+            <Button x:ConnectionId='1'                           Canvas.Left="994" Canvas.Top="232">
                 <Button.Template>
                     <ControlTemplate>
                         <Ellipse  Name="TVChannelUp" Width="90" Height="90" 
@@ -35,7 +35,7 @@
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-            <Button x:ConnectionId='0'                             Canvas.Left="994" Canvas.Top="322">
+            <Button x:ConnectionId='2'                             Canvas.Left="994" Canvas.Top="322">
                 <Button.Template>
                     <ControlTemplate>
                         <Ellipse  Name="TVChannelDown" Width="90" Height="90" 
@@ -44,7 +44,6 @@
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-
             <TextBox Name="TVChannelName" Height="53" Width="150" Background="Transparent" BorderBrush="Transparent"
                        FontSize="32" Foreground="Black" 
                        TextAlignment="Center"

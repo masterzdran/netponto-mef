@@ -3,27 +3,38 @@
   <PropertyGroup>
     <Machine>HAKUNAMATATA</Machine>
     <WindowsUser>NunoAlexandre</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>91edb0e3-1f7b-4995-bbe6-04ff6bec7ee8</PackageIdentityName>
-    <RegisteredManifestChecksum>1D8CBFF580D5747FCD15953FD9EECB7BA092B7D3FC5F78A4E2D7725626DCF7BC</RegisteredManifestChecksum>
+    <IntermediateOutputPath>C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>49F62F33BD6FB731DFC5ADF2584F13AE04B97AD4E649E79444E7588F08F5B275</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>91edb0e3-1f7b-4995-bbe6-04ff6bec7ee8_1.0.0.0_neutral__mrvhd2bxfq04y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>91edb0e3-1f7b-4995-bbe6-04ff6bec7ee8_mrvhd2bxfq04y!App</RegisteredUserModeAppID>
     <RegisteredPackageID>91edb0e3-1f7b-4995-bbe6-04ff6bec7ee8</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=NunoAlexandre</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-05-05T21:11:06.632</Modified>
+      <Modified>2014-06-20T11:10:20.882</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\PirateTv-01.exe">
       <PackagePath>PirateTv-01.exe</PackagePath>
-      <Modified>2014-05-05T21:31:17.672</Modified>
+      <Modified>2014-06-20T11:10:13.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTV01\bin\Debug\PirateTV01.winmd">
+      <PackagePath>PirateTV01.winmd</PackagePath>
+      <Modified>2014-06-20T11:10:08.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTV01\bin\Debug\PirateTv-01-Channels-Lib.dll">
+      <PackagePath>PirateTv-01-Channels-Lib.dll</PackagePath>
+      <Modified>2014-06-20T11:10:05.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -93,15 +104,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-05-05T19:27:03.095</Modified>
+      <Modified>2014-06-20T11:10:12.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-05-05T21:31:17.085</Modified>
+      <Modified>2014-06-20T11:10:12.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\PirateTv-01.xr.xml">
+      <PackagePath>PirateTv-01.xr.xml</PackagePath>
+      <Modified>2014-06-20T09:52:54.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-05-05T21:11:06.325</Modified>
+      <Modified>2014-06-20T11:10:14.118</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

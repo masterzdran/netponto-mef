@@ -3,9 +3,11 @@
   <PropertyGroup>
     <Machine>HAKUNAMATATA</Machine>
     <WindowsUser>NunoAlexandre</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>91edb0e3-1f7b-4995-bbe6-04ff6bec7ee8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\AppxManifest.xml">
@@ -16,6 +18,9 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\PirateTv-01.exe">
       <PackagePath>PirateTv-01.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01-Channels-Lib\bin\Debug\PirateTv-01-Channels-Lib.dll">
+      <PackagePath>PirateTv-01-Channels-Lib.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -73,6 +78,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\PirateTv-01.xr.xml">
+      <PackagePath>PirateTv-01.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

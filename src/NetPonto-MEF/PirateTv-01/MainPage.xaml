@@ -44,7 +44,6 @@
                     </ControlTemplate>
                 </Button.Template>
             </Button>
-
             <TextBox Name="TVChannelName" Height="53" Width="150" Background="Transparent" BorderBrush="Transparent"
                        FontSize="32" Foreground="Black" 
                        TextAlignment="Center"

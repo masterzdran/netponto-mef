@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\dev\gitbub\masterzdran\netponto-mef\src\netponto-mef\piratetv-01\obj\debug\intermediatexaml\piratetv-01.exe" HashGuid="987818cb-285f-7710-afed-d1912dfbeed9" />
+    <LocalAssembly PathName="c:\dev\gitbub\masterzdran\netponto-mef\src\netponto-mef\piratetv-01\obj\debug\intermediatexaml\piratetv-01.exe" HashGuid="2c60179e-8f47-2282-1f7a-91a43b993d62" />
+    <ReferenceAssembly PathName="c:\dev\gitbub\masterzdran\netponto-mef\src\netponto-mef\piratetv01\bin\debug\piratetv01.winmd" HashGuid="f7e85e72-3745-8dbb-ea8a-934ce874cfa2" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

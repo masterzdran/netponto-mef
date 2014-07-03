@@ -1,1 +1,3 @@
-C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\PirateTv-01.csproj;neutral
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01\PirateTV01.csproj;neutral
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTV01\PirateTV01Lib.csproj;neutral
+C:\Dev\gitbub\masterzdran\netponto-mef\src\NetPonto-MEF\PirateTv-01-Channels-Lib\ChannelsLib.csproj;neutral

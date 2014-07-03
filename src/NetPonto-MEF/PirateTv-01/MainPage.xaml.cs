@@ -1,20 +1,10 @@
 ﻿using PirateTv_01.Common;
+using PirateTV01.Contracts;
+using PirateTV01.Model;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
-using Windows.UI.Xaml.Shapes;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
 
@@ -55,6 +45,7 @@ namespace PirateTv_01
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
+            myTVOperations = new TVOperations();
         }
 
         /// <summary>
@@ -109,60 +100,24 @@ namespace PirateTv_01
 
 
 
+
+
+
         #region Application Pirate TV 
-        private int channel = 0;
+            private ITVOperations myTVOperations;
+            private void TVChannelUp_Click(object sender, RoutedEventArgs e)
+            {
+                IPirateChannel c = myTVOperations.ChannelUp();
+                TVScreen.Fill = c.Channel;
+                TVChannelName.Text = c.Logo;
+            }
 
-        BitmapImage[] colors = new BitmapImage[]{
-            null,
-            new BitmapImage(new Uri("ms-appx:/Images/nbc.png", UriKind.Absolute)),
-            new BitmapImage(new Uri("ms-appx:/Images/Fox-Sports.jpg", UriKind.Absolute)),
-            new BitmapImage(new Uri("ms-appx:/Images/fox-business-logo.jpg", UriKind.Absolute)),
-            new BitmapImage(new Uri("ms-appx:/Images/Discovery.jpg", UriKind.Absolute)),
-            new BitmapImage(new Uri("ms-appx:/Images/Cartoon_Network_2010_Logo.png", UriKind.Absolute))
-        };
-  
-                
-        
-        String[] channels = new String[]{
-            "",
-            "Beca",
-            "YMCA",
-            "Zumba",
-            "MS",
-            "XXPT"
-        };
-        /**
-         *  TV Channel:
-         *  
-         *  Channel Name
-         *  Channel Logo
-         *  Channel BackGround
-         *  Channel Number
-         *  Channel Logo Localization
-         *  
-         * */
-
-        private void TVChannelUp_Click(object sender, RoutedEventArgs e)
-        {
-
-            channel = (channel + 1) % colors.Length;
-            ChangeChannel(channel);
-        }
-
-        private void ChangeChannel(int channel)
-        {
-            // Create an ImageBrush
-            ImageBrush imgBrush = new ImageBrush();
-            imgBrush.ImageSource = colors[channel];
-            TVScreen.Fill = imgBrush;
-            TVChannelName.Text = channels[channel];
-        }
-
-        private void TVChannelDown_Click(object sender, RoutedEventArgs e)
-        {
-            channel = ((--channel) < 0)?colors.Length -1 : channel   ;
-            ChangeChannel(channel);
-        }
+            private void TVChannelDown_Click(object sender, RoutedEventArgs e)
+            {
+                IPirateChannel c = myTVOperations.ChannelDown();
+                TVScreen.Fill = c.Channel;
+                TVChannelName.Text = c.Logo;
+            }
         #endregion
     }
 }
