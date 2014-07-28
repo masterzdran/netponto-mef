@@ -1,0 +1,41 @@
+﻿<Window x:Class="PirateTV.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"  Height="454" Width="651">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="./Images/tv-pilot.jpg" />
+        </Grid.Background>
+        <Canvas>
+            <Rectangle Name="TVScreen"  Height="247" Width="303" 
+                       Stroke="Transparent"
+                       RadiusX="45" RadiusY="45" Canvas.Left="140" Canvas.Top="116"
+                       />
+
+            <Button Click="TVChannelUp_Click" Canvas.Left="471" Canvas.Top="130" Width="35" Height="42">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Ellipse  Name="TVChannelUp" Width="90" Height="90" 
+                      Fill="Transparent"  Stroke="Transparent"
+                      Canvas.Left="992" Canvas.Top="230" 
+                                  RenderTransformOrigin="0.533,0.556" />
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Click="TVChannelDown_Click" Canvas.Left="471" Canvas.Top="182" Width="35" Height="42" RenderTransformOrigin="0.524,0.513">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Ellipse  Name="TVChannelDown" Width="90" Height="90" 
+                            Fill="Transparent"  Stroke="Transparent"
+                            Canvas.Left="994" Canvas.Top="322" RenderTransformOrigin="0.533,0.556"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <TextBox Name="TVChannelName" Height="56" Width="113" Background="Transparent" BorderBrush="Transparent"
+                       FontSize="20" Foreground="Black" 
+                       TextAlignment="Center"
+                       Canvas.Left="140" Canvas.Top="116" />
+        </Canvas>
+
+    </Grid>
+</Window>
